@@ -32,6 +32,7 @@ body {
     --colorContrast: rgb(20, 20, 20);
     --colorInteractionElements: rgb(175, 175, 175);
     --colorShadow: rgba(0, 0, 0, 0.5);
+    --colorGreen: rgb(153, 255, 0);
 
 
     /* CONFIG STANDARDS */
@@ -45,6 +46,7 @@ abbr {
 /* a STYLIZATION */
 a {
     text-decoration: none;
+    color: var(--colorBlack);
 }
 /* li STYLIZATION */
 li {
@@ -53,6 +55,10 @@ li {
 
 .contrast {
     color: var(--colorGray);
+}
+
+.betweenContent {
+    color: var(--colorGreen);
 }
 
 header {
@@ -73,6 +79,31 @@ main {
 #mainDiv {
     padding: 10px;
 }
+#minorDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu {
+    flex: 1 1 calc(50% - 50px);
+    background-color: bisque;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.titles {
+    color: var(--colorBlack);
+    text-align: center;
+    /*text-shadow: 2px 2px 4px var(--colorShadow);*/
+    font-family: var(--fontDisplay);
+}
+.whatsButton {
+    color: var(--colorBlack);
+    background-color: var(--colorGreen);
+    border-radius: 50px;
+    padding: 7px;
+    font-size: var(--fontDisplay);
+}
 
 footer {
     display: flex;
@@ -88,7 +119,4 @@ footer {
 .footerDivs {
     display: inline;
     color: var(--colorWhite);
-}
-.footerLi {
-    text-indent: 7px;
 }

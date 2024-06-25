@@ -10,12 +10,11 @@ header {
     /*text-shadow: 2px 2px 4px var(--colorShadow);*/
     font-size: 3vw;
 }
-
-h1 {
-    color: var(--colorBlack);
-    /*text-shadow: 2px 2px 4px var(--colorShadow);*/
-    font-family: var(--fontDisplay);
+.titles {
     font-size: 5.5vw;
+}
+h1 {
+    font-size: 6.5vw;
 }
 li {
     list-style-type: none;
@@ -23,6 +22,9 @@ li {
 
 footer {
     font-size: 3.5vw;
+}
+.footerLi {
+    text-indent: 5px;
 }
 #iconLocation {
     width: 3.5vw;
