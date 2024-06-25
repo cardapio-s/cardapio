@@ -1,2 +1,28 @@
 @charset "UTF-8"; /* KEYBOARD CODE OF THE STYLIZATIONS CODE */
 
+#updated {
+    display: block;
+    color: var(--colorWhite);
+    font-family: var(--fontMonoSerif);
+    /*text-shadow: 2px 2px 4px var(--colorShadow);*/
+    font-size: 2vw;
+}
+#date {
+    color: var(--colorGray);
+}
+h1 {
+    color: var(--colorBlack);
+    /*text-shadow: 2px 2px 4px var(--colorShadow);*/
+    font-family: var(--fontDisplay);
+    font-size: 3.5vw;
+}
+li {
+    list-style-type: none;
+}
+
+footer {
+    font-size: 2vw;
+}
+.footerDivs {
+    color: var(--colorWhite);
+}

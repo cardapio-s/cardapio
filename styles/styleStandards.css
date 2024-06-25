@@ -14,6 +14,7 @@
 /* BODY STYLIZATION */
 body { 
     background-color: rgb(240, 240, 240);
+    padding-bottom: 67px;
     transition: var(--configTrasition03s);
 }
 
@@ -27,6 +28,7 @@ body {
     /* COLORS */
     --colorWhite: rgb(230, 230, 230);
     --colorBlack: rgb(5, 5, 5);
+    --colorGray: rgb(135, 135, 135);
     --colorContrastOpacity: rgba(20, 20, 20, 0.685);
     --colorContrast: rgb(20, 20, 20);
     --colorInteractionElements: rgb(175, 175, 175);
@@ -37,11 +39,60 @@ body {
     --configTrasition03s: 0.3s;
     --configTrasition02s: 0.2s;
 }
-/* A STYLIZATION */
+/* abbr STYLIZATION */
+abbr {
+    text-decoration: none;
+}
+/* a STYLIZATION */
 a {
     text-decoration: none;
 }
-/* A STYLIZATION */
+/* li STYLIZATION */
 li {
     text-decoration: none;
+}
+.contrast {
+    color: var(--colorGray);
+}
+header {
+    display: block;
+    background-color: var(--colorBlack);
+    border-bottom: 2px solid var(--colorBlack);
+    padding: 10px;
+    font-size: 1.2vw; 
+    box-shadow: 2px 2px 10px var(--colorShadow);
+    transition: var(--configTrasition03s);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    transition: var(--configTrasition03s);
+}
+#mainDiv {
+    border-left: 2px solid var(--colorBlack);
+    border-right: 2px solid var(--colorBlack);
+    padding: 10px;
+}
+footer {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--colorBlack);
+    border-top: 2px solid var(--colorBlack);
+    padding: 10px;
+    text-align: start;
+    font-family: var(--fontSerif);
+    box-shadow: -2px -2px 10px var(--colorShadow);
+    transition: var(--configTrasition03s);
+}
+.footerDivs {
+    display: inline;
+    margin-right: 10px;
+}
+.footerLi {
+    text-indent: 5px;
 }
