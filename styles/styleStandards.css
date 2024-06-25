@@ -1,7 +1,9 @@
 @charset "UTF-8"; /* KEYBOARD CODE OF THE STYLIZATIONS CODE */
 
 /* FONTS INPORTS */
-
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Noto+Sans+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
 
 /* PAGE OR ALL STYLIZATION */
 *, HTML {
@@ -17,9 +19,9 @@ body {
 
 :root { /* CONFIGS STANDARD AND PATERNS */
     /* FONTS */
-    --fontDisplay: ;
-    --fontMonoSerif: ;
-    --fontSerif: ;
+    --fontDisplay: 'Noto Sans Display', sans-serif;
+    --fontMonoSerif: 'Courier Prime', monospace;
+    --fontSerif: 'Zilla Slab', serif;
 
 
     /* COLORS */
