@@ -1,0 +1,45 @@
+@charset "UTF-8"; /* KEYBOARD CODE OF THE STYLIZATIONS CODE */
+
+/* FONTS INPORTS */
+
+
+/* PAGE OR ALL STYLIZATION */
+*, HTML {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* BODY STYLIZATION */
+body { 
+    background-color: rgb(240, 240, 240);
+    transition: var(--configTrasition03s);
+}
+
+:root { /* CONFIGS STANDARD AND PATERNS */
+    /* FONTS */
+    --fontDisplay: ;
+    --fontMonoSerif: ;
+    --fontSerif: ;
+
+
+    /* COLORS */
+    --colorWhite: rgb(230, 230, 230);
+    --colorBlack: rgb(5, 5, 5);
+    --colorContrastOpacity: rgba(20, 20, 20, 0.685);
+    --colorContrast: rgb(20, 20, 20);
+    --colorInteractionElements: rgb(175, 175, 175);
+    --colorShadow: rgba(0, 0, 0, 0.5);
+
+
+    /* CONFIG STANDARDS */
+    --configTrasition03s: 0.3s;
+    --configTrasition02s: 0.2s;
+}
+/* A STYLIZATION */
+a {
+    text-decoration: none;
+}
+/* A STYLIZATION */
+li {
+    text-decoration: none;
+}
