@@ -10,6 +10,7 @@ header {
     /*text-shadow: 2px 2px 4px var(--colorShadow);*/
     font-size: 3vw;
 }
+
 h1 {
     color: var(--colorBlack);
     /*text-shadow: 2px 2px 4px var(--colorShadow);*/
@@ -23,6 +24,17 @@ li {
 footer {
     font-size: 3.5vw;
 }
-.footerDivs {
-    color: var(--colorWhite);
+#iconLocation {
+    width: 3.5vw;
+    padding-right: 3px;
+}
+#titleLocation {
+    display: flex;
+}
+#iconContact {
+    width: 3.5vw;
+    padding-right: 5px;
+}
+#titleContact {
+    display: flex;
 }

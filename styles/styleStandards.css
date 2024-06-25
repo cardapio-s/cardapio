@@ -50,9 +50,11 @@ a {
 li {
     text-decoration: none;
 }
+
 .contrast {
     color: var(--colorGray);
 }
+
 header {
     display: block;
     background-color: var(--colorBlack);
@@ -61,6 +63,7 @@ header {
     box-shadow: 2px 2px 10px var(--colorShadow);
     transition: var(--configTrasition03s);
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -70,11 +73,13 @@ main {
 #mainDiv {
     padding: 10px;
 }
+
 footer {
     display: flex;
+    justify-content: space-between;
     background-color: var(--colorBlack);
     border-top: 2px solid var(--colorBlack);
-    padding: 10px;
+    padding: 17px;
     text-align: start;
     font-family: var(--fontSerif);
     box-shadow: -2px -2px 10px var(--colorShadow);
@@ -82,8 +87,8 @@ footer {
 }
 .footerDivs {
     display: inline;
-    margin-right: 10px;
+    color: var(--colorWhite);
 }
 .footerLi {
-    text-indent: 5px;
+    text-indent: 7px;
 }
