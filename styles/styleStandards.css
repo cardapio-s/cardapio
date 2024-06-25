@@ -14,7 +14,6 @@
 /* BODY STYLIZATION */
 body { 
     background-color: rgb(240, 240, 240);
-    padding-bottom: 67px;
     transition: var(--configTrasition03s);
 }
 
@@ -28,7 +27,7 @@ body {
     /* COLORS */
     --colorWhite: rgb(230, 230, 230);
     --colorBlack: rgb(5, 5, 5);
-    --colorGray: rgb(135, 135, 135);
+    --colorGray: rgb(150, 150, 150);
     --colorContrastOpacity: rgba(20, 20, 20, 0.685);
     --colorContrast: rgb(20, 20, 20);
     --colorInteractionElements: rgb(175, 175, 175);
@@ -69,17 +68,10 @@ main {
     transition: var(--configTrasition03s);
 }
 #mainDiv {
-    border-left: 2px solid var(--colorBlack);
-    border-right: 2px solid var(--colorBlack);
     padding: 10px;
 }
 footer {
     display: flex;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background-color: var(--colorBlack);
     border-top: 2px solid var(--colorBlack);
     padding: 10px;
