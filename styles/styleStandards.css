@@ -76,6 +76,12 @@ main {
     place-items: center;
     transition: var(--configTrasition03s);
 }
+h1 {
+    color: var(--colorBlack);
+    text-align: center;
+    /*text-shadow: 2px 2px 4px var(--colorShadow);*/
+    font-family: var(--fontDisplay);
+}
 #mainDiv {
     padding: 10px;
 }
@@ -102,7 +108,12 @@ main {
     background-color: var(--colorGreen);
     border-radius: 50px;
     padding: 7px;
+    text-align: center;
     font-size: var(--fontDisplay);
+}
+.listCustom {
+    list-style-type: disc;
+    margin-left: 15px;
 }
 
 footer {
