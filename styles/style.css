@@ -40,14 +40,14 @@ footer {
     text-indent: 7px;
 }
 #iconLocation {
-    width: 4.5vw;
+    width: 5vw;
     padding-right: 4px;
 }
 #titleLocation {
     display: flex;
 }
 #iconContact {
-    width: 4.5vw;
+    width: 5vw;
     padding-right: 7px;
 }
 #titleContact {
