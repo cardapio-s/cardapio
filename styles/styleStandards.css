@@ -121,6 +121,7 @@ h3 {
 .listCustom {
     list-style-type: disc;
     margin-left: 15px;
+    font-family: var(--fontSerif);
 }
 
 footer {
