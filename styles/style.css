@@ -23,9 +23,12 @@ h3 {
 li {
     list-style-type: none;
 }
+.whatsButton {
+    font-size: 4vw;
+}
 .listCustom {
-    margin-left: 20px;
-    font-size: 1.3vw;
+    margin-left: 30px;
+    font-size: 3.5vw;
 }
 
 footer {
