@@ -79,8 +79,11 @@ main {
 h1 {
     color: var(--colorBlack);
     text-align: center;
-    text-shadow: 2px 2px 4px var(--colorShadow);
+    /*text-shadow: 2px 2px 4px var(--colorShadow);*/
     font-family: var(--fontDisplay);
+}
+h2 {
+    margin-bottom: 7px;
 }
 h3 {
     color: var(--colorBlack);
@@ -120,7 +123,6 @@ h3 {
 }
 .listCustom {
     list-style-type: disc;
-    margin-left: 15px;
     font-family: var(--fontSerif);
 }
 
