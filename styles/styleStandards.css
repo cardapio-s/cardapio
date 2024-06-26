@@ -89,7 +89,7 @@ h3 {
     border-bottom: 2px solid var(--colorBlack);
 }
 #mainDiv {
-    padding: 10px;
+    padding: 5px;
 }
 #minorDiv {
     display: flex;
@@ -98,10 +98,10 @@ h3 {
 }
 .menu {
     flex: 1 1 calc(30% - 60px);
-    background-color: bisque;
+    background-color: rgb(250, 232, 210);
     border-radius: 20px;
     box-shadow: 2px 2px 10px var(--colorShadow);
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
 }
 .titles {
