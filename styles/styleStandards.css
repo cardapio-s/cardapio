@@ -122,6 +122,7 @@ h3 {
     padding: 7px;
     margin-top: 7px;
     text-align: center;
+    box-shadow: 2px 2px 10px var(--colorShadow);
 }
 .list {
     margin-bottom: 5px;
