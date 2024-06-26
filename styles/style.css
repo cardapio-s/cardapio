@@ -31,14 +31,14 @@ footer {
     text-indent: 5px;
 }
 #iconLocation {
-    width: 3vw;
+    width: 4vw;
     padding-right: 3px;
 }
 #titleLocation {
     display: flex;
 }
 #iconContact {
-    width: 3vw;
+    width: 4vw;
     padding-right: 5px;
 }
 #titleContact {

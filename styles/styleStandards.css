@@ -82,6 +82,12 @@ h1 {
     text-shadow: 2px 2px 4px var(--colorShadow);
     font-family: var(--fontDisplay);
 }
+h3 {
+    color: var(--colorBlack);
+    text-align: center;
+    font-family: var(--fontDisplay);
+    border-bottom: 2px solid var(--colorBlack);
+}
 #mainDiv {
     padding: 10px;
 }
